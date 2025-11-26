@@ -8,7 +8,7 @@ public class Zadatak3PDF {
         System.out.println("Unesite putanju do odredišne datoteke (npr. C:/temp/original.pdf): ");
         String putanjaOriginala = sc.nextLine();
 
-        System.out.println("Unesite naziv destinacijske datoteke (npr. C:/temp/kopija.pdf): ");
+        System.out.println("Unesite putanju za izradu kopije (npr. C:/temp/kopija.pdf): ");
         String putanjaKopije = sc.nextLine();
 
         File original = new File(putanjaOriginala);
